@@ -1,0 +1,11 @@
+.venv/
+__pycache__/
+*.pyc
+recordings/
+data/
+dist/
+tests/
+
+# Models are downloaded separately; never commit local checkpoints.
+checkpoint/
+firmware_release/
