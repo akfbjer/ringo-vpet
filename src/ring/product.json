@@ -1,0 +1,9 @@
+{
+  "drivers": [
+    "ringo"
+  ],
+  "apps": [
+    "firmware",
+    "ringo_lab"
+  ]
+}
