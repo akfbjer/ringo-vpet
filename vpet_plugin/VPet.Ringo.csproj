@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
+    <AssemblyName>VPet.Ringo</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="VPet-Simulator.Windows.Interface">
+      <HintPath>$(VPetInstallDir)\VPet-Simulator.Windows.Interface.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VPet-Simulator.Core">
+      <HintPath>$(VPetInstallDir)\VPet-Simulator.Core.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Panuon.WPF.UI">
+      <HintPath>$(VPetInstallDir)\Panuon.WPF.UI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="Panuon.WPF">
+      <HintPath>$(VPetInstallDir)\Panuon.WPF.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -5,7 +5,13 @@ recordings/
 data/
 dist/
 tests/
+tmp/
 
 # Models are downloaded separately; never commit local checkpoints.
 checkpoint/
 firmware_release/
+.tools/
+dotnet-install.ps1
+vpet_plugin/bin/
+vpet_plugin/obj/
+vpet_plugin/package/RingoVPet
